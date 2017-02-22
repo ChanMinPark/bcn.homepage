@@ -1,0 +1,18 @@
+.text-color-blue {
+  color: #007cca;
+}
+
+.bcn-header {
+  width:1200px;
+  padding-top:54px;
+}
+
+.bcn-content {
+  max-width:1200px;
+}
+
+.main-news-img {
+  width:100%;
+  height:200px;
+  background-color:gray;
+}
