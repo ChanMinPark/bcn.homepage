@@ -2,8 +2,14 @@
   color: #007cca;
 }
 
-.bnc-top {
+.bcn-top {
   top: 0;
+}
+
+.bcn-top, .bcn-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .bcn-wide {
