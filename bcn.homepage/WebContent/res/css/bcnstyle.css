@@ -12,6 +12,22 @@
   z-index: 1;
 }
 
+.bcn-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bcn-bar::before, .bcn-bar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bcn-white, .bcn-hover-white:hover {
+  color: #000!important;
+  background-color: #fff!important;
+}
+
 .bcn-wide {
   letter-spacing: 4px;
 }
