@@ -27,6 +27,23 @@ body {
   clear: both;
 }
 
+.bcn-bar .bcn-bar-item {
+  padding: 8px 16px;
+  float: left;
+  background-color: inherit;
+  color: inherit;
+  width: auto;
+  border: none;
+  outline: none;
+  display: block;
+}
+
+.bcn-bar .bcn-button {
+  background-color: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
 .bcn-white, .bcn-hover-white:hover {
   color: #000!important;
   background-color: #fff!important;
@@ -43,6 +60,10 @@ body {
 
 .bcn-card-2 {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.bcn-margin-left {
+  margin-left: 16px!important;
 }
 
 .bcn-header {
