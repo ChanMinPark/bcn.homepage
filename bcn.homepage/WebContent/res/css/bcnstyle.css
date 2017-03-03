@@ -65,7 +65,7 @@ body {
 }
 
 .bcn-wide {
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .bcn-padding-8 {
@@ -90,8 +90,25 @@ body {
   padding-top:54px;
 }
 
+.bcn-display-container {
+  position: relative;
+}
+
 .bcn-content {
-  max-width:1200px;
+  max-width:980px;
+  margin: auto;
+}
+
+.bcn-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.bcn-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .main-news-img {
