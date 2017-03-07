@@ -1,3 +1,11 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box
+}
+
 body {
   margin: 0;
 }
@@ -163,4 +171,35 @@ body {
 
 .bcn-border-bottom {
   border-bottom: 1px solid #f1f1f1!important;
+}
+
+.bcn-row-padding, .bcn-row-padding>.bcn-col {
+  padding: 0 8px;
+}
+
+.bcn-col {
+  float: left;
+  width: 100%;
+}
+
+.bcn-margin-bottom {
+  margin-bottom: 16px!important;
+}
+
+.bcn-display-topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 601px){
+  .bcn-col.m6 {
+    width: 49.99999%;
+  }
+}
+
+@media (min-width: 993px){
+  .bcn-col.l3 {
+    width: 24.99999%;
+  }
 }
