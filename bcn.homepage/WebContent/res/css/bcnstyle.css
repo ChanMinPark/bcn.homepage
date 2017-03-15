@@ -67,6 +67,11 @@ body {
   white-space: normal;
 }
 
+.bcn-bar .bcn-button:hover{
+  color: white;
+  background-color: rgba(0, 124, 202, 0.5);
+}
+
 .bcn-white, .bcn-hover-white:hover {
   color: #000!important;
   background-color: #fff!important;
