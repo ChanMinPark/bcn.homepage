@@ -82,8 +82,8 @@ body {
 }
 
 .bcn-has-submenu {
-  /*position: relative;
-  display: inline-block;*/
+  position: relative;
+  display: inline-block;
 }
 
 .bcn-submenu-content {
