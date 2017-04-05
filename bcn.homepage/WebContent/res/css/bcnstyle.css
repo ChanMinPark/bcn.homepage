@@ -99,6 +99,9 @@ body {
 
 .bcn-submenu-content .bcn-submenu-item {
   list-style: none;
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0px 10px 5px;
+  font-size: 12px;
 }
 
 .bcn-has-submenu:hover .bcn-submenu-content {
