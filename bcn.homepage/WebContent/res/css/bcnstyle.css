@@ -104,6 +104,11 @@ body {
   font-size: 12px;
 }
 
+.bcn-submenu-content .bcn-submenu-item:hover {
+  color: white;
+  background-color: rgba(0, 124, 202, 0.5);
+}
+
 .bcn-has-submenu:hover .bcn-submenu-content {
   display: block;
 }
