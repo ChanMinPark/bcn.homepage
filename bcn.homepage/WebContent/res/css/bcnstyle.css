@@ -99,12 +99,19 @@ body {
 
 .bcn-submenu-content .bcn-submenu-item {
   list-style: none;
-  border-bottom: 1px solid #efefef;
-  padding: 10px 0px 10px 5px;
+  border-top: 1px solid #efefef;
+  padding: 5px 0px 10px 5px;
   font-size: 12px;
 }
 
-.bcn-submenu-content .bcn-submenu-item:hover {
+.bcn-submenu-content .bcn-submenu-item2 {
+  list-style: none;
+  /*border-bottom: 1px solid #efefef;*/
+  padding: 5px 0px 5px 30px;
+  font-size: 11px;
+}
+
+.bcn-submenu-content .bcn-submenu-item:hover, .bcn-submenu-content .bcn-submenu-item2:hover {
   color: white;
   background-color: rgba(0, 124, 202, 0.5);
 }
